@@ -9,10 +9,7 @@ source venv/bin/activate
 ```
 
 ```
-pip install Django djangorestframework
-
-python manage.py startapp testcases
-
+pip install -r requirements.txt
 
 python manage.py makemigrations
 python manage.py migrate
